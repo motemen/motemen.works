@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&family=Source+Code+Pro:wght@300&display=swap");
+
+body {
+  background-color: #f3f3f3;
+}
+
+main {
+  font-family: "Noto Sans JP", "Open Sans";
+  font-weight: 300;
+  line-height: 2;
+  font-size: 125%;
+  margin: 5em 10em;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 0.5px solid;
+}
+
+h1,
+h2 {
+  font-weight: 400;
+}
+
+h1 {
+  background-image: url(/images/1920.png);
+  background-repeat: no-repeat;
+  background-size: 80px;
+  background-position-x: right;
+  height: 100px;
+
+  & a {
+    text-decoration: inherit;
+    border: none;
+    color: inherit;
+  }
+}
+
+a {
+  color: blue;
+
+  &:hover {
+    color: red;
+  }
+}
+
+.works {
+  & .tag {
+    font-size: 70%;
+    margin: 0 0.2rem;
+  }
+
+  & .meta {
+    font-size: smaller;
+  }
+}
+
+.experiences ul,
+.links ul {
+  font-size: 90%;
+}
+
+@media (max-width: 767px) {
+  main {
+    font-size: 105%;
+    margin: 0.5em 1em;
+  }
+}
+
+@media print {
+  a::after {
+    content: "<" attr(href) ">";
+    font-size: 90%;
+    margin-left: 0.5em;
+    font-family: "Source Code Pro";
+  }
+}

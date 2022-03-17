@@ -1,0 +1,41 @@
+{
+  "name": "motemen",
+  "version": "1.0.0",
+  "private": true,
+  "description": "motemen",
+  "author": "Hironao OTSUBO",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit",
+    "update-works": "curl -L -o ./src/data/works.tsv 'https://docs.google.com/spreadsheets/d/19jtTn6MWEcCAryBreABNOTyQ8Trd7OzRg7_X0QqZjQU/export?format=tsv&gid=0'"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "v1",
+    "@mdx-js/react": "v1",
+    "gatsby": "^4.9.3",
+    "gatsby-plugin-google-analytics": "^4.9.0",
+    "gatsby-plugin-mdx": "^3.9.1",
+    "gatsby-plugin-postcss": "^5.9.0",
+    "gatsby-plugin-typegen": "^2.2.4",
+    "gatsby-source-filesystem": "^4.9.1",
+    "gatsby-transformer-csv": "^4.9.0",
+    "gatsby-transformer-remark": "^5.9.1",
+    "postcss": "^8.4.11",
+    "postcss-preset-env": "^7.4.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.13",
+    "typescript": "^4.6.2"
+  }
+}
