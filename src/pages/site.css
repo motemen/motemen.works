@@ -53,6 +53,21 @@ a {
   & .meta {
     font-size: smaller;
   }
+
+  & .other-links {
+    font-size: 70%;
+    margin-left: 0.5em;
+  }
+
+  & .other-links a {
+    margin-right: 0.3em;
+    color: #aaa;
+    border: none;
+  }
+
+  & .other-links a:focus {
+    color: #555;
+  }
 }
 
 .experiences ul,

@@ -3,7 +3,6 @@ import { graphql, Link, useStaticQuery } from "gatsby";
 import "./site.css";
 import WorksItem from "../components/WorksItem";
 
-// markup
 const IndexPage = (props: any) => {
   const data = useStaticQuery<GatsbyTypes.DataQuery>(
     graphql`
@@ -25,12 +24,17 @@ const IndexPage = (props: any) => {
             Name
             URL
             Article_URL
+            Repository_URL
             Tags
+            Deprecated
           }
         }
       }
     `
   );
+  if (!data) {
+    throw new Error("data is null");
+  }
 
   return (
     <main>
@@ -48,9 +52,12 @@ const IndexPage = (props: any) => {
             <WorksItem
               name={work.Name}
               url={work.URL}
+              articleURL={work.Article_URL}
+              repositoryURL={work.Repository_URL}
               tags={work.Tags.split(",")}
               year={parseInt(work.Date?.substring(0, 4))}
-            ></WorksItem>
+              deprecated={work.Deprecated === "TRUE"}
+            />
           ))}
         </ul>
         <Link to="/works">

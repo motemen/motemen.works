@@ -13,7 +13,9 @@ const WorksPage = (props: any) => {
             Name
             URL
             Article_URL
+            Repository_URL
             Tags
+            Deprecated
           }
         }
       }
@@ -34,9 +36,12 @@ const WorksPage = (props: any) => {
             <WorksItem
               name={work.Name}
               url={work.URL}
+              articleURL={work.Article_URL}
+              repositoryURL={work.Repository_URL}
               tags={work.Tags.split(",")}
               year={parseInt(work.Date?.substring(0, 4))}
-            ></WorksItem>
+              deprecated={work.Deprecated === "TRUE"}
+            />
           ))}
         </ul>
       </section>
