@@ -2,8 +2,9 @@ import * as React from "react";
 import { graphql, Link, useStaticQuery } from "gatsby";
 import "./site.css";
 import WorksItem from "../components/WorksItem";
+import Layout from "../components/Layout";
 
-const IndexPage = (props: any) => {
+const IndexPage = () => {
   const data = useStaticQuery<GatsbyTypes.DataQuery>(
     graphql`
       query Data {
@@ -37,10 +38,7 @@ const IndexPage = (props: any) => {
   }
 
   return (
-    <main>
-      <title>motemen</title>
-      <h1>motemen</h1>
-
+    <Layout>
       <section className="profile">
         <div dangerouslySetInnerHTML={{ __html: data.profile.html }}></div>
       </section>
@@ -92,7 +90,7 @@ const IndexPage = (props: any) => {
           </li>
         </ul>
       </section>
-    </main>
+    </Layout>
   );
 };
 

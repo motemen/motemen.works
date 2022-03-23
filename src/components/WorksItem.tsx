@@ -57,7 +57,9 @@ const WorksItem = ({
       <div className="meta">
         <span className="year">{year}</span>{" "}
         {tags.map((tag) => (
-          <span className="tag">{tag}</span>
+          <span key={tag} className="tag">
+            {tag}
+          </span>
         ))}
       </div>
     </li>

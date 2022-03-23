@@ -2,6 +2,7 @@ import * as React from "react";
 import { graphql, Link, useStaticQuery } from "gatsby";
 import "./site.css";
 import WorksItem from "../components/WorksItem";
+import Layout from "../components/Layout";
 
 const WorksPage = (props: any) => {
   const data = useStaticQuery<GatsbyTypes.WorksQuery>(
@@ -23,17 +24,13 @@ const WorksPage = (props: any) => {
   );
 
   return (
-    <main>
-      <title>作品 | motemen</title>
-      <h1>
-        <Link to="/">motemen</Link>
-      </h1>
-
+    <Layout pageTitle="作品">
       <section className="works">
         <h2>作品</h2>
         <ul>
           {data.works.nodes.map((work) => (
             <WorksItem
+              key={work.Name}
               name={work.Name}
               url={work.URL}
               articleURL={work.Article_URL}
@@ -45,7 +42,7 @@ const WorksPage = (props: any) => {
           ))}
         </ul>
       </section>
-    </main>
+    </Layout>
   );
 };
 
