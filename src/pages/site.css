@@ -53,12 +53,13 @@ a {
   }
 
   & .other-links {
-    font-size: 70%;
+    vertical-align: bottom;
+    font-size: 80%;
     margin-left: 0.5em;
   }
 
   & .other-links a {
-    margin-right: 0.3em;
+    margin-right: 0.15em;
     color: #aaa;
     border: none;
   }

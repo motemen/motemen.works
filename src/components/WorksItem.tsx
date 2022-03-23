@@ -1,8 +1,7 @@
 import * as React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSquarePen, faGlobe } from "@fortawesome/free-solid-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import "@fortawesome/fontawesome-svg-core/styles.css";
+import ArticleIcon from "@mui/icons-material/Article";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import WebIcon from "@mui/icons-material/Language";
 
 interface Props {
   name: string;
@@ -39,17 +38,17 @@ const WorksItem = ({
         <span className="other-links">
           {url && (
             <a href={url} title="URL">
-              <FontAwesomeIcon icon={faGlobe} />
+              <WebIcon fontSize="inherit" />
             </a>
           )}
           {articleURL && (
             <a href={articleURL} title="記事">
-              <FontAwesomeIcon icon={faSquarePen} />
+              <ArticleIcon fontSize="inherit" />
             </a>
           )}
           {repositoryURL && (
             <a href={repositoryURL} title="リポジトリ">
-              <FontAwesomeIcon icon={faGithub} />
+              <GitHubIcon fontSize="inherit" />
             </a>
           )}
         </span>
