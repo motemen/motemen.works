@@ -1,5 +1,25 @@
 body {
   background-color: #f3f3f3;
+  color: #000000;
+}
+
+a {
+  color: blue;
+
+  &:hover {
+    color: red;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #e0e0e0;
+    background-color: #131313;
+  }
+
+  a {
+    color: #4444ff;
+  }
 }
 
 main {
@@ -31,14 +51,6 @@ h1 {
     text-decoration: inherit;
     border: none;
     color: inherit;
-  }
-}
-
-a {
-  color: blue;
-
-  &:hover {
-    color: red;
   }
 }
 
