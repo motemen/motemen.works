@@ -48,6 +48,7 @@ const IndexPage = () => {
         <ul>
           {data.selectedWorks.nodes.map((work) => (
             <WorksItem
+              key={work.Name}
               name={work.Name}
               url={work.URL}
               articleURL={work.Article_URL}
@@ -79,14 +80,16 @@ const IndexPage = () => {
             GitHub: <a href="https://github.com/motemen">@motemen</a>
             <ul>
               <li>
-                一部のメンテナンスを引き継いだソフトウェアは{" "}
-                <a href="https://github.com/x-motemen">x-motemen</a>{" "}
-                にあります。
+                一部のコードは{" "}
+                <a href="https://github.com/x-motemen">x-motemen</a> に委譲。
               </li>
             </ul>
           </li>
           <li>
             Twitter: <a href="https://twitter.com/motemen">@motemen</a>
+          </li>
+          <li>
+            メール: <a href="mailto:motemen@gmail.com">motemen@gmail.com</a>
           </li>
         </ul>
       </section>
