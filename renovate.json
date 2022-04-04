@@ -3,5 +3,6 @@
   "extends": ["config:base"],
   "patch": {
     "enabled": false
-  }
+  },
+  "lockFileMaintenance": { "enabled": true }
 }
