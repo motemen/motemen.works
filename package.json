@@ -17,7 +17,7 @@
     "update-works": "curl -L -o ./src/data/works.tsv 'https://docs.google.com/spreadsheets/d/19jtTn6MWEcCAryBreABNOTyQ8Trd7OzRg7_X0QqZjQU/export?format=tsv&gid=0'"
   },
   "dependencies": {
-    "@emotion/react": "11.8.2",
+    "@emotion/react": "11.9.0",
     "@emotion/styled": "11.8.1",
     "@mui/icons-material": "5.6.0",
     "@mui/material": "5.6.0",
