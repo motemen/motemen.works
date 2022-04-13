@@ -1,15 +1,16 @@
 Date	Name	Tags	URL	Repository URL	Article URL	Presentation URL	Select	Deprecated
+2022/04	sbx	Go,CLI,Scrapbox		https://github.com/motemen/sbx	https://motemen.hatenablog.com/entry/2022/04/sbx		FALSE	FALSE
 2022/03	chrome-extension-esbuild	Chrome Extension,DevTools		https://github.com/motemen/chrome-extension-esbuild	https://motemen.hatenablog.com/entry/2022/03/chrome-extension-esbuild		FALSE	FALSE
 2022/02	ウェブ薄氷	Web,React,Cloudflare Workers	https://usurai.motemen.workers.dev/		https://motemen.hatenablog.com/entry/2022/02/webusurai		TRUE	FALSE
 2022/02	漢字ル	Web,React,KanjiVG	https://motemen.github.io/kanjile/		https://motemen.hatenablog.com/entry/2022/02/kanjile		FALSE	FALSE
-2021/04	go-switchgen	Go		https://github.com/motemen/go-switchgen	https://motemen.hatenablog.com/entry/2021/04/go-switchgen		FALSE	FALSE
+2021/04	go-switchgen	Go,CLI		https://github.com/motemen/go-switchgen	https://motemen.hatenablog.com/entry/2021/04/go-switchgen		FALSE	FALSE
 2020/12	macos-BluetoothAudioDistancer	macOS		https://github.com/motemen/macos-BluetoothAudioDistancer	https://motemen.hatenablog.com/entry/2020/12/macos-bluetoothaudioidistancer		FALSE	FALSE
 2020/11	Google Meet Mute Toggler	Chrome Extension	https://chrome.google.com/webstore/detail/google-meet-mute-toggler/ojdhpiapiiphnknbbgddcfnlagfgpjnp		https://motemen.hatenablog.com/entry/2020/11/google-meet-mute-toggler		FALSE	FALSE
 2020/05	docker-datastore-emulator	Docker		https://github.com/motemen/docker-datastore-emulator			FALSE	FALSE
 2019/12	TextCast	Electron		https://github.com/motemen/TextCast	https://motemen.hatenablog.com/entry/2019/12/textcast		FALSE	FALSE
 2019/12	漢字スライダー	Web,Vue	https://motemen.github.io/kanji-slider/		https://motemen.hatenablog.com/entry/2019/12/kanji-slider		TRUE	FALSE
 2019/11	slack-stream-json	Rust,CLI,Slack		https://github.com/motemen/slack-stream-json	https://motemen.hatenablog.com/entry/2019/11/slack-stream-json		FALSE	FALSE
-2019/03	go-cxtize	Go		https://github.com/motemen/go-ctxize	https://motemen.hatenablog.com/entry/2019/03/go-ctxize		FALSE	FALSE
+2019/03	go-cxtize	Go,CLI		https://github.com/motemen/go-ctxize	https://motemen.hatenablog.com/entry/2019/03/go-ctxize		FALSE	FALSE
 2019/02	めかぬか	Web,KanjiVG	https://motemen.github.io/mekanuka/		https://motemen.hatenablog.com/entry/2019/02/mekanuka		FALSE	FALSE
 2019/01	git-shared-submodule-update	Git		https://github.com/motemen/git-shared-submodule-update	https://motemen.hatenablog.com/entry/2019/01/git-shared-submodule-update		FALSE	FALSE
 2018/08	fuTimer	Speedcubing,Web,React	https://motemen.github.io/futimer/		https://motemen.hatenablog.com/entry/2018/08/speedcubing-timer		FALSE	FALSE
@@ -40,7 +41,7 @@ Date	Name	Tags	URL	Repository URL	Article URL	Presentation URL	Select	Deprecated
 2015/01	go-typeswitch-gen	Go,CLI		https://github.com/motemen/go-typeswitch-gen	https://motemen.hatenablog.com/entry/2015/01/go-generic-func-with-tsgen		FALSE	FALSE
 2014/12	blogsync	Go,CLI		https://github.com/x-motemen/blogsync	https://motemen.hatenablog.com/entry/2014/12/22/blogsync		TRUE	FALSE
 2014/12	go-loghttp	Go		https://github.com/motemen/go-loghttp	https://motemen.hatenablog.com/entry/2014/12/02/go-loghttp		FALSE	FALSE
-2014/07	Lambda Calculator	Scala.js	http://motemen.github.io/lambda-calculator/untyped.html		https://motemen.hatenablog.com/entry/2014/07/31/lambda-calculator		FALSE	FALSE
+2014/07	Lambda Calculator	Scala,Web	http://motemen.github.io/lambda-calculator/untyped.html		https://motemen.hatenablog.com/entry/2014/07/31/lambda-calculator		FALSE	FALSE
 2014/07	minimatch cheatsheet	Node,Web		https://github.com/motemen/minimatch-cheat-sheet	https://github.com/motemen/minimatch-cheat-sheet		FALSE	FALSE
 2014/07	adsense-report-cli	Go,CLI		https://github.com/motemen/adsense-report-cli	https://motemen.hatenablog.com/entry/2014/07/07/adsense-report-cli		FALSE	FALSE
 2014/06	ghq	Go,CLI,Git		https://github.com/x-motemen/ghq	https://motemen.hatenablog.com/entry/2014/06/01/introducing-ghq		TRUE	FALSE
@@ -68,7 +69,7 @@ Date	Name	Tags	URL	Repository URL	Article URL	Presentation URL	Select	Deprecated
 2011/07	UNIVERSAL::perldoc	Perl		https://github.com/motemen/UNIVERSAL-perldoc	http://subtech.g.hatena.ne.jp/motemen/20110714/1310641020		FALSE	FALSE
 2011/06	Kindlenap	Perl		https://github.com/motemen/Kindlenap	http://subtech.g.hatena.ne.jp/motemen/20110617/13082720066		FALSE	FALSE
 2011/06	git-log-relay-chat	Git		https://github.com/motemen/git-log-relay-chat	http://subtech.g.hatena.ne.jp/motemen/20110628/1309262975		FALSE	FALSE
-2011/04	App::sn	Perl		https://github.com/motemen/App-sn	http://subtech.g.hatena.ne.jp/motemen/20110418/13031318944		FALSE	FALSE
+2011/04	App::sn	Perl,CLI		https://github.com/motemen/App-sn	http://subtech.g.hatena.ne.jp/motemen/20110418/13031318944		FALSE	FALSE
 2011/03	AnyEvent::DAAP::Server	Perl		https://github.com/motemen/AnyEvent-DAAP-Server	http://subtech.g.hatena.ne.jp/motemen/20110328/1301314126		FALSE	FALSE
 2011/02	LWPx::Record::DataSection	Perl		https://github.com/motemen/LWPx-Record-DataSection	http://subtech.g.hatena.ne.jp/motemen/20110221/1298289517		FALSE	FALSE
 2011/02	PicTumblr	Android	https://market.android.com/details?id=net.tokyoenvious.droid.pictumblr				FALSE	TRUE
