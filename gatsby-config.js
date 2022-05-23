@@ -37,5 +37,6 @@ module.exports = {
       __key: "pages",
     },
     "gatsby-transformer-remark",
+    "gatsby-plugin-react-helmet",
   ],
 };
