@@ -1,4 +1,5 @@
 Date	Name	Tags	URL	Repository URL	Article URL	Presentation URL	Select	Deprecated
+2022/05	letterknife	Go,MIME		https://github.com/motemen/letterknife	https://motemen.hatenablog.com/entry/2022/05/letterknife		TRUE	FALSE
 2022/04	sbx	Go,CLI,Scrapbox		https://github.com/motemen/sbx	https://motemen.hatenablog.com/entry/2022/04/sbx		FALSE	FALSE
 2022/03	chrome-extension-esbuild	Chrome Extension,DevTools		https://github.com/motemen/chrome-extension-esbuild	https://motemen.hatenablog.com/entry/2022/03/chrome-extension-esbuild		FALSE	FALSE
 2022/02	ウェブ薄氷	Web,React,Cloudflare Workers	https://usurai.motemen.workers.dev/		https://motemen.hatenablog.com/entry/2022/02/webusurai		TRUE	FALSE
