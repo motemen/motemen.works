@@ -14,11 +14,11 @@ a {
 @media (prefers-color-scheme: dark) {
   body {
     color: #e0e0e0;
-    background-color: #131313;
+    background-color: #292a2e;
   }
 
   a {
-    color: #4444ff;
+    color: #80b7fe;
   }
 }
 
