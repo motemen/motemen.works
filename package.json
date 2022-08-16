@@ -30,7 +30,7 @@
     "gatsby-transformer-csv": "4.21.0",
     "gatsby-transformer-remark": "5.21.0",
     "postcss": "8.4.12",
-    "postcss-preset-env": "7.7.2",
+    "postcss-preset-env": "7.8.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-helmet": "6.1.0"
