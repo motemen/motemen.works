@@ -1,4 +1,6 @@
 Date	Name	Tags	URL	Repository URL	Article URL	Presentation URL	Select	Deprecated
+2022/07	Obfuscate texts	Chrome Extension	https://chrome.google.com/webstore/detail/obfuscate-texts/iappfbaenmkmgdiodpemhhndfjbigago	https://github.com/motemen/webextension-obfuscate-texts	https://motemen.hatenablog.com/entry/2022/07/extension-obfuscate-texts		FALSE	FALSE
+2022/07	gcal-tui	Go,Google Calendar,TUI		https://github.com/motemen/gcal-tui	https://motemen.hatenablog.com/entry/2022/07/gcal-tui		FALSE	FALSE
 2022/06	vnodroid	VRM,Web	https://motemen.github.io/vnodroid/	https://github.com/motemen/vnodroid	https://motemen.hatenablog.com/entry/2022/06/vnodroid		FALSE	FALSE
 2022/05	letterknife	Go,CLI,MIME		https://github.com/motemen/letterknife	https://motemen.hatenablog.com/entry/2022/05/letterknife		TRUE	FALSE
 2022/04	sbx	Go,CLI,Scrapbox		https://github.com/motemen/sbx	https://motemen.hatenablog.com/entry/2022/04/sbx		FALSE	FALSE
