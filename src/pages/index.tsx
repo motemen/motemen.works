@@ -89,6 +89,10 @@ const IndexPage = () => {
             Twitter: <a href="https://twitter.com/motemen">@motemen</a>
           </li>
           <li>
+            Fediverse:{" "}
+            <a href="https://pub.motemen.works">@motemen@pub.motemen.works</a>
+          </li>
+          <li>
             メール: <a href="mailto:motemen@gmail.com">motemen@gmail.com</a>
           </li>
         </ul>
