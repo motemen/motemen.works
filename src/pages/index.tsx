@@ -86,7 +86,7 @@ const IndexPage = () => {
             </ul>
           </li>
           <li>
-            Twitter: <a href="https://twitter.com/motemen">@motemen</a>
+            𝕏: <a href="https://twitter.com/motemen">@motemen</a>
           </li>
           <li>
             Fediverse:{" "}
