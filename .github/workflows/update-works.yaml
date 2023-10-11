@@ -21,3 +21,7 @@ jobs:
           branch: update-works
           create_branch: true
       - uses: peter-evans/create-pull-request@v5
+        with:
+          title: Update works
+          commit-message: Update works
+          branch: update-works
