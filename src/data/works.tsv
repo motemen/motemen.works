@@ -1,4 +1,5 @@
 Date	Name	Tags	URL	Repository URL	Article URL	Presentation URL	Select	Deprecated
+2023/07	clang-tidy-check-extra-i18n-string	C++,Clang		https://github.com/motemen/clang-tidy-check-extra-i18n-string	https://motemen.hatenablog.com/entry/2023/07/20/110000		FALSE	FALSE
 2023/05	ラストN画クイズ	Web,React,KanjiVG	https://kanji-strokes-puzzle.vercel.app/	https://github.com/motemen/kanji-strokes-puzzle	https://motemen.hatenablog.com/entry/2023/05/kanji-strokes-puzzle		FALSE	FALSE
 2022/07	Obfuscate texts	Chrome Extension	https://chrome.google.com/webstore/detail/obfuscate-texts/iappfbaenmkmgdiodpemhhndfjbigago	https://github.com/motemen/webextension-obfuscate-texts	https://motemen.hatenablog.com/entry/2022/07/extension-obfuscate-texts		FALSE	FALSE
 2022/07	gcal-tui	Go,Google Calendar,TUI		https://github.com/motemen/gcal-tui	https://motemen.hatenablog.com/entry/2022/07/gcal-tui		FALSE	FALSE
