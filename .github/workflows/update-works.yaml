@@ -17,3 +17,4 @@ jobs:
           title: Update works
           commit-message: Update works
           branch: update-works
+          add-paths: src/data/works.tsv
