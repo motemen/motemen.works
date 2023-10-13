@@ -1,7 +1,8 @@
 Date	Name	Tags	URL	Repository URL	Article URL	Presentation URL	Select	Deprecated
+2023/10	go-testutil/dataloc	Go		https://github.com/motemen/go-testutil/tree/main/dataloc	https://motemen.hatenablog.com/entry/2023/10/go-testutil-dataloc		TRUE	FALSE
 2023/07	clang-tidy-check-extra-i18n-string	C++,Clang		https://github.com/motemen/clang-tidy-check-extra-i18n-string	https://motemen.hatenablog.com/entry/2023/07/20/110000		FALSE	FALSE
 2023/05	ラストN画クイズ	Web,React,KanjiVG	https://kanji-strokes-puzzle.vercel.app/	https://github.com/motemen/kanji-strokes-puzzle	https://motemen.hatenablog.com/entry/2023/05/kanji-strokes-puzzle		FALSE	FALSE
-2022/07	Obfuscate texts	Chrome Extension	https://chrome.google.com/webstore/detail/obfuscate-texts/iappfbaenmkmgdiodpemhhndfjbigago	https://github.com/motemen/webextension-obfuscate-texts	https://motemen.hatenablog.com/entry/2022/07/extension-obfuscate-texts		FALSE	FALSE
+2022/07	Obfuscate texts	Chrome Extension	https://chrome.google.com/webstore/detail/obfuscate-texts/iappfbaenmkmgdiodpemhhndfjbigago	https://github.com/motemen/webextension-obfuscate-texts	https://motemen.hatenablog.com/entry/2022/07/extension-obfuscate-texts		TRUE	FALSE
 2022/07	gcal-tui	Go,Google Calendar,TUI		https://github.com/motemen/gcal-tui	https://motemen.hatenablog.com/entry/2022/07/gcal-tui		FALSE	FALSE
 2022/06	vnodroid	VRM,Web	https://motemen.github.io/vnodroid/	https://github.com/motemen/vnodroid	https://motemen.hatenablog.com/entry/2022/06/vnodroid		FALSE	FALSE
 2022/05	letterknife	Go,CLI,MIME		https://github.com/motemen/letterknife	https://motemen.hatenablog.com/entry/2022/05/letterknife		TRUE	FALSE
@@ -22,7 +23,7 @@ Date	Name	Tags	URL	Repository URL	Article URL	Presentation URL	Select	Deprecated
 2018/08	fuTimer	Speedcubing,Web,React	https://motemen.github.io/futimer/		https://motemen.hatenablog.com/entry/2018/08/speedcubing-timer		FALSE	FALSE
 2018/03	sketch-eth-pay-for-content	Ethereum	https://motemen.hatenablog.com/entry/2018/03/ethereum-dapp-protect-content		https://motemen.hatenablog.com/entry/2018/03/ethereum-dapp-protect-content		FALSE	FALSE
 2017/12	furoshiki2	Python,CLI		https://github.com/motemen/furoshiki2	https://motemen.hatenablog.com/entry/2017/12/furoshiki		FALSE	FALSE
-2017/09	prchecklist	Go,Web		https://github.com/motemen/prchecklist	https://motemen.hatenablog.com/entry/2017/09/prchecklist		TRUE	FALSE
+2017/09	prchecklist	Go,Web		https://github.com/motemen/prchecklist	https://motemen.hatenablog.com/entry/2017/09/prchecklist		FALSE	FALSE
 2017/06	go-graphql-query	Go,GraphQL		https://github.com/motemen/go-graphql-query	https://motemen.hatenablog.com/entry/2017/06/go-graphql-query		FALSE	FALSE
 2017/05	gas-google-calendar-to-slack-status-farm	Google Apps Script		https://github.com/motemen/gas-google-calendar-to-slack-status-farm	https://motemen.hatenablog.com/entry/2017/05/gas-google-calendar-slack-status-farm		FALSE	FALSE
 2016/12	The Beautiful Graph Maker	Web	https://motemen.github.io/beautiful-graph-maker/		https://motemen.hatenablog.com/entry/2016/12/beautiful-graph-maker		FALSE	FALSE
