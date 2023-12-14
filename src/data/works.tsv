@@ -1,94 +1,95 @@
-Date	Name	Tags	URL	Repository URL	Article URL	Presentation URL	Select	Deprecated
-2023/10	go-testutil/dataloc	Go		https://github.com/motemen/go-testutil/tree/main/dataloc	https://motemen.hatenablog.com/entry/2023/10/go-testutil-dataloc		TRUE	FALSE
-2023/07	clang-tidy-check-extra-i18n-string	C++,Clang		https://github.com/motemen/clang-tidy-check-extra-i18n-string	https://motemen.hatenablog.com/entry/2023/07/20/110000		FALSE	FALSE
-2023/05	ラストN画クイズ	Web,React,KanjiVG	https://kanji-strokes-puzzle.vercel.app/	https://github.com/motemen/kanji-strokes-puzzle	https://motemen.hatenablog.com/entry/2023/05/kanji-strokes-puzzle		FALSE	FALSE
-2022/07	Obfuscate texts	Chrome Extension	https://chrome.google.com/webstore/detail/obfuscate-texts/iappfbaenmkmgdiodpemhhndfjbigago	https://github.com/motemen/webextension-obfuscate-texts	https://motemen.hatenablog.com/entry/2022/07/extension-obfuscate-texts		TRUE	FALSE
-2022/07	gcal-tui	Go,Google Calendar,TUI		https://github.com/motemen/gcal-tui	https://motemen.hatenablog.com/entry/2022/07/gcal-tui		FALSE	FALSE
-2022/06	vnodroid	VRM,Web	https://motemen.github.io/vnodroid/	https://github.com/motemen/vnodroid	https://motemen.hatenablog.com/entry/2022/06/vnodroid		FALSE	FALSE
-2022/05	letterknife	Go,CLI,MIME		https://github.com/motemen/letterknife	https://motemen.hatenablog.com/entry/2022/05/letterknife		TRUE	FALSE
-2022/04	sbx	Go,CLI,Scrapbox		https://github.com/motemen/sbx	https://motemen.hatenablog.com/entry/2022/04/sbx		FALSE	FALSE
-2022/03	chrome-extension-esbuild	Chrome Extension,DevTools		https://github.com/motemen/chrome-extension-esbuild	https://motemen.hatenablog.com/entry/2022/03/chrome-extension-esbuild		FALSE	FALSE
-2022/02	ウェブ薄氷	Web,React,Cloudflare Workers	https://usurai.motemen.workers.dev/		https://motemen.hatenablog.com/entry/2022/02/webusurai		TRUE	FALSE
-2022/02	漢字ル	Web,React,KanjiVG	https://motemen.github.io/kanjile/		https://motemen.hatenablog.com/entry/2022/02/kanjile		FALSE	FALSE
-2021/04	go-switchgen	Go,CLI		https://github.com/motemen/go-switchgen	https://motemen.hatenablog.com/entry/2021/04/go-switchgen		FALSE	FALSE
-2020/12	macos-BluetoothAudioDistancer	macOS		https://github.com/motemen/macos-BluetoothAudioDistancer	https://motemen.hatenablog.com/entry/2020/12/macos-bluetoothaudioidistancer		FALSE	FALSE
-2020/11	Google Meet Mute Toggler	Chrome Extension	https://chrome.google.com/webstore/detail/google-meet-mute-toggler/ojdhpiapiiphnknbbgddcfnlagfgpjnp		https://motemen.hatenablog.com/entry/2020/11/google-meet-mute-toggler		FALSE	FALSE
-2020/05	docker-datastore-emulator	Docker		https://github.com/motemen/docker-datastore-emulator			FALSE	FALSE
-2019/12	TextCast	Electron		https://github.com/motemen/TextCast	https://motemen.hatenablog.com/entry/2019/12/textcast		FALSE	FALSE
-2019/12	漢字スライダー	Web,Vue	https://motemen.github.io/kanji-slider/		https://motemen.hatenablog.com/entry/2019/12/kanji-slider		TRUE	FALSE
-2019/11	slack-stream-json	Rust,CLI,Slack		https://github.com/motemen/slack-stream-json	https://motemen.hatenablog.com/entry/2019/11/slack-stream-json		FALSE	FALSE
-2019/03	go-cxtize	Go,CLI		https://github.com/motemen/go-ctxize	https://motemen.hatenablog.com/entry/2019/03/go-ctxize		FALSE	FALSE
-2019/02	めかぬか	Web,KanjiVG	https://motemen.github.io/mekanuka/		https://motemen.hatenablog.com/entry/2019/02/mekanuka		FALSE	FALSE
-2019/01	git-shared-submodule-update	Git		https://github.com/motemen/git-shared-submodule-update	https://motemen.hatenablog.com/entry/2019/01/git-shared-submodule-update		FALSE	FALSE
-2018/08	fuTimer	Speedcubing,Web,React	https://motemen.github.io/futimer/		https://motemen.hatenablog.com/entry/2018/08/speedcubing-timer		FALSE	FALSE
-2018/03	sketch-eth-pay-for-content	Ethereum	https://motemen.hatenablog.com/entry/2018/03/ethereum-dapp-protect-content		https://motemen.hatenablog.com/entry/2018/03/ethereum-dapp-protect-content		FALSE	FALSE
-2017/12	furoshiki2	Python,CLI		https://github.com/motemen/furoshiki2	https://motemen.hatenablog.com/entry/2017/12/furoshiki		FALSE	FALSE
-2017/09	prchecklist	Go,Web		https://github.com/motemen/prchecklist	https://motemen.hatenablog.com/entry/2017/09/prchecklist		FALSE	FALSE
-2017/06	go-graphql-query	Go,GraphQL		https://github.com/motemen/go-graphql-query	https://motemen.hatenablog.com/entry/2017/06/go-graphql-query		FALSE	FALSE
-2017/05	gas-google-calendar-to-slack-status-farm	Google Apps Script		https://github.com/motemen/gas-google-calendar-to-slack-status-farm	https://motemen.hatenablog.com/entry/2017/05/gas-google-calendar-slack-status-farm		FALSE	FALSE
-2016/12	The Beautiful Graph Maker	Web	https://motemen.github.io/beautiful-graph-maker/		https://motemen.hatenablog.com/entry/2016/12/beautiful-graph-maker		FALSE	FALSE
-2016/10	gofind	Go,CLI		https://github.com/motemen/gofind	https://motemen.hatenablog.com/entry/2016/10/gofind		FALSE	FALSE
-2016/09	Router::Simple::Reversible	Perl	https://metacpan.org/pod/Router::Simple::Reversible		https://motemen.hatenablog.com/entry/2016/09/router-simple-reversible		FALSE	FALSE
-2016/07	kt-alloy-cli	Kotlin,Alloy		https://github.com/motemen/kt-alloy-cli	https://motemen.hatenablog.com/entry/2016/07/alloy-run-cli		FALSE	FALSE
-2015/12	humr	Node,CLI	https://www.npmjs.com/package/humr		https://motemen.hatenablog.com/entry/2015/12/humr		FALSE	FALSE
-2015/12	go-iferr	Go,CLI		https://github.com/motemen/go-iferr	https://motemen.hatenablog.com/entry/2015/12/go-iferr		FALSE	FALSE
-2015/11	gas-slack-log-spreadsheet	Google Apps Script,Slack		https://github.com/motemen/gas-slack-log-spreadsheet	https://motemen.hatenablog.com/entry/2015/11/gas-slack-log-spreadsheet		FALSE	FALSE
-2015/10	adsense-report-menubar	Electron		https://github.com/motemen/adsense-report-menubar	https://motemen.hatenablog.com/entry/2015/10/adsense-report-menubar		FALSE	FALSE
-2015/09	go-sqlf	Go		https://github.com/motemen/go-sqlf	https://motemen.hatenablog.com/entry/2015/09/go-sqlf		FALSE	FALSE
-2015/08	go-gitconfig	Go,Git		https://github.com/motemen/go-gitconfig	https://motemen.hatenablog.com/entry/2015/08/go-gitconfig		FALSE	FALSE
-2015/07	gobump	Go,CLI		https://github.com/x-motemen/gobump	https://motemen.hatenablog.com/entry/2015/07/go-gobump-versioning		FALSE	FALSE
-2015/06	Google Apps Script の Type Definition	TypeScript,Google Apps Script		https://github.com/DefinitelyTyped/DefinitelyTyped/pull/6723	https://motemen.hatenablog.com/entry/2015/06/google-apps-script-typescript-dts		FALSE	FALSE
-2015/06	dropbox-file-chooser-dialog	Polymer	https://motemen.hatenablog.com/entry/2015/06/polymer-dropbox-file-chooser-dialog		https://motemen.hatenablog.com/entry/2015/06/polymer-dropbox-file-chooser-dialog		FALSE	FALSE
-2015/04	go-cli	Go,CLI		https://github.com/motemen/go-cli	https://motemen.hatenablog.com/entry/2015/04/go-cli		FALSE	FALSE
-2015/03	hub-pr	Go,CLI,Git		https://github.com/motemen/hub-pr	https://motemen.hatenablog.com/entry/2015/03/hub-pr		FALSE	FALSE
-2015/03	lgtm.sh	Bash,CLI		https://github.com/motemen/lgtm.sh	https://motemen.hatenablog.com/entry/2015/03/15/lgtm-sh		FALSE	FALSE
-2015/03	go-quickfix	Go,CLI		https://github.com/motemen/go-quickfix	https://motemen.hatenablog.com/entry/2015/03/introducing-goquickfix		FALSE	FALSE
-2015/02	gore	Go,CLI		https://github.com/x-motemen/gore	https://motemen.hatenablog.com/entry/2015/02/go-repl-gore		TRUE	FALSE
-2015/02	Pocket Expose	Web	https://expocket.herokuapp.com/		https://motemen.hatenablog.com/entry/2015/02/pocket-expose-web		FALSE	FALSE
-2015/01	go-typeswitch-gen	Go,CLI		https://github.com/motemen/go-typeswitch-gen	https://motemen.hatenablog.com/entry/2015/01/go-generic-func-with-tsgen		FALSE	FALSE
-2014/12	blogsync	Go,CLI		https://github.com/x-motemen/blogsync	https://motemen.hatenablog.com/entry/2014/12/22/blogsync		TRUE	FALSE
-2014/12	go-loghttp	Go		https://github.com/motemen/go-loghttp	https://motemen.hatenablog.com/entry/2014/12/02/go-loghttp		FALSE	FALSE
-2014/07	Lambda Calculator	Scala,Web	http://motemen.github.io/lambda-calculator/untyped.html		https://motemen.hatenablog.com/entry/2014/07/31/lambda-calculator		FALSE	FALSE
-2014/07	minimatch cheatsheet	Node,Web		https://github.com/motemen/minimatch-cheat-sheet	https://github.com/motemen/minimatch-cheat-sheet		FALSE	FALSE
-2014/07	adsense-report-cli	Go,CLI		https://github.com/motemen/adsense-report-cli	https://motemen.hatenablog.com/entry/2014/07/07/adsense-report-cli		FALSE	FALSE
-2014/06	ghq	Go,CLI,Git		https://github.com/x-motemen/ghq	https://motemen.hatenablog.com/entry/2014/06/01/introducing-ghq		TRUE	FALSE
-2014/05	Flavoured Favicon	Chrome Extension	https://chrome.google.com/webstore/detail/flavoured-favicon/dlegfippiljfbacmikdigaimfngdibgh		https://motemen.hatenablog.com/entry/2014/05/09/%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6_Favicon_%E3%81%AE%E8%89%B2%E3%82%92%E5%A4%89%E3%81%88%E3%82%89%E3%82%8C%E3%82%8B_Chrome_		FALSE	FALSE
-2014/04	Quote Image As Text	Chrome Extension	https://chrome.google.com/webstore/detail/quote-image-as-text/fjjehanehnaejfgnmkgebkefbdnebbkc		https://motemen.hatenablog.com/entry/2014/04/07/%E3%82%A6%E3%82%A7%E3%83%96%E4%B8%8A%E3%81%AE%E4%BB%BB%E6%84%8F%E3%81%AE%E7%94%BB%E5%83%8F%E3%81%AE%E8%B2%BC%E3%82%8A%E4%BB%98%E3%81%91%E3%82%BF%E3%82%B0%E3%82%92_Markdown_%E3%81%A8%E3%81%97%E3%81%A6		FALSE	FALSE
-2014/03	JavaScript Libraries Playground	JavaScript	http://motemen.github.io/javascript-libraries-playground/		https://motemen.hatenablog.com/entry/2014/03/25/700%E3%82%92%E8%B6%8A%E3%81%88%E3%82%8BJavaScript%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%82%92%E8%87%AA%E7%94%B1%E3%81%AB%E8%A9%A6%E3%81%9B%E3%82%8B%E3%83%9A%E3%83%BC%E3%82%B8%E3%82%92%E4%BD%9C		FALSE	FALSE
-2014/03	Pusheen Explorer	Web	http://motemen.github.io/pusheen-explorer/		https://motemen.hatenablog.com/entry/2014/03/19/Introducing_Pusheen_Explorer		FALSE	FALSE
-2014/02	ポケモンタイプ相性チェッカ	Web,Angular	http://motemen.github.io/pokemon-type-effects/		https://motemen.hatenablog.com/entry/2014/02/17/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%97%E7%9B%B8%E6%80%A7%E3%82%92%E7%A2%BA%E8%AA%8D%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%A6%E3%82%A7%E3%83%96%E3%82%A2%E3%83%97%E3%83%AA		FALSE	FALSE
-2014/01	vim-help-random	Vim		https://github.com/motemen/vim-help-random	https://motemen.hatenablog.com/entry/wrote-plugin-vim-help-random		FALSE	FALSE
-2013/12	ARGV::JSON	Perl	https://metacpan.org/release/ARGV-JSON		https://motemen.hatenablog.com/entry/2013/12/18/Shipped_ARGV%3A%3AJSON_0_01		FALSE	FALSE
-2013/11	Print::Indented	Perl	https://metacpan.org/release/Print-Indented		https://motemen.hatenablog.com/entry/2013/11/19/%E3%81%84%E3%81%84%E6%84%9F%E3%81%98%E3%81%AB%E5%87%BA%E5%8A%9B%E3%82%92%E3%82%A4%E3%83%B3%E3%83%87%E3%83%B3%E3%83%88%E3%81%97%E3%81%A6%E3%81%8F%E3%82%8C%E3%82%8B%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC		FALSE	FALSE
-2013/08	まかないメーカー	Web	http://macanai-maker.herokuapp.com/		https://motemen.hatenablog.com/entry/2013/08/28/%E4%BB%8A%E6%97%A5%E3%81%AE%E7%8C%AE%E7%AB%8B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E7%A4%BA%E5%94%86%E3%82%92%E4%B8%8E%E3%81%88%E3%81%A6%E3%81%8F%E3%82%8C%E3%82%8B%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5		FALSE	FALSE
-2013/02	次の連休	Web	https://misc.tokyoenvious.net/holidays/holidays.html			https://www.slideshare.net/motemen/ss-16398860	FALSE	FALSE
-2012/10	polka	Node		https://github.com/motemen/polka	http://subtech.g.hatena.ne.jp/motemen/20121016/1350362999		FALSE	FALSE
-2012/10	Test::Deep::JSON	Perl	https://metacpan.org/release/MOTEMEN/Test-Deep-JSON-0.01/		http://subtech.g.hatena.ne.jp/motemen/20121003/1349240202		FALSE	FALSE
-2012/09	git-browse-remote	Ruby,CLI	http://motemen.github.io/git-browse-remote/		https://motemen.hatenablog.com/entry/2014/06/05/released-git-browse-remote-0-1-0		FALSE	FALSE
-2012/09	AnyEvent::Plackup	Perl	https://metacpan.org/release/MOTEMEN/AnyEvent-Plackup-0.01		https://motemen.hatenablog.com/entry/2013/10/15/Shipped_AnyEvent%3A%3APlackup		FALSE	FALSE
-2012/07	Wight	Perl		https://github.com/motemen/Wight	http://subtech.g.hatena.ne.jp/motemen/20120703/1341291524	http://www.slideshare.net/motemen/wight-phantoms-perl-friend-yapcasia-2012	FALSE	FALSE
-2012/04	Class::Accessor::Lite::Lazy	Perl	https://metacpan.org/dist/Class-Accessor-Lite-Lazy				FALSE	FALSE
-2012/04	HTTP::Response::Maker	Perl	https://metacpan.org/module/HTTP::Response::Maker		http://subtech.g.hatena.ne.jp/motemen/20120410/1334062368		FALSE	FALSE
-2012/02	Acme::Annotate::WithOutput	Perl		https://github.com/motemen/Acme-Annotate-WithOutput	http://subtech.g.hatena.ne.jp/motemen/20120208/1328702891		FALSE	FALSE
-2012/01	App::htmlcat	Perl,CLI		https://github.com/motemen/App-htmlcat	http://subtech.g.hatena.ne.jp/motemen/20120120/1326987165		FALSE	FALSE
-2011/12	chrome-scala-api-search	Chrome Extension		https://github.com/motemen/chrome-scala-api-search	https://motemen.hatenablog.com/entry/2011/12/03/015830		FALSE	TRUE
-2011/08	ゆりゆららららゆるゆり大事件メーカー	Web	http://yurarara.tokyoenvious.net/		http://subtech.g.hatena.ne.jp/motemen/20110823/1314100241		FALSE	TRUE
-2011/07	UNIVERSAL::perldoc	Perl		https://github.com/motemen/UNIVERSAL-perldoc	http://subtech.g.hatena.ne.jp/motemen/20110714/1310641020		FALSE	FALSE
-2011/06	Kindlenap	Perl		https://github.com/motemen/Kindlenap	http://subtech.g.hatena.ne.jp/motemen/20110617/13082720066		FALSE	FALSE
-2011/06	git-log-relay-chat	Git		https://github.com/motemen/git-log-relay-chat	http://subtech.g.hatena.ne.jp/motemen/20110628/1309262975		FALSE	FALSE
-2011/04	App::sn	Perl,CLI		https://github.com/motemen/App-sn	http://subtech.g.hatena.ne.jp/motemen/20110418/13031318944		FALSE	FALSE
-2011/03	AnyEvent::DAAP::Server	Perl		https://github.com/motemen/AnyEvent-DAAP-Server	http://subtech.g.hatena.ne.jp/motemen/20110328/1301314126		FALSE	FALSE
-2011/02	LWPx::Record::DataSection	Perl		https://github.com/motemen/LWPx-Record-DataSection	http://subtech.g.hatena.ne.jp/motemen/20110221/1298289517		FALSE	FALSE
-2011/02	PicTumblr	Android	https://market.android.com/details?id=net.tokyoenvious.droid.pictumblr				FALSE	TRUE
-2011/01	modoi	Perl		https://github.com/motemen/modoi	http://subtech.g.hatena.ne.jp/motemen/20110127/1296056112		FALSE	FALSE
-2010/12	vim-guess-abbrev	Vim		https://github.com/motemen/vim-guess-abbrev	http://subtech.g.hatena.ne.jp/motemen/20101215/1292414533		FALSE	FALSE
-2010/11	Teto	Perl	http://github.com/motemen/Teto		http://subtech.g.hatena.ne.jp/motemen/20101102/1288706549		FALSE	FALSE
-2010/11	Script::State	Perl		https://github.com/motemen/Script-State	http://subtech.g.hatena.ne.jp/motemen/20101116/1289910367		FALSE	FALSE
-2010/10	Plack::Middleware::WebSocket	Perl	http://github.com/motemen/Plack-Middleware-WebSocket		http://subtech.g.hatena.ne.jp/motemen/20101021/1287665213		FALSE	FALSE
-2010/05	Plack::Middleware::Icecast::StatusUpdate	Perl	http://github.com/motemen/Plack-Middleware-Icecast-StatusUpdate		http://subtech.g.hatena.ne.jp/motemen/20100523/1274549126		FALSE	FALSE
-2008/09	as3-klt	ActionScript		https://github.com/motemen/as3-klt	http://subtech.g.hatena.ne.jp/motemen/20080925/1222325279		FALSE	FALSE
-2008/08	やる夫で学ぶgitcore-tutorial	Git	http://motemen.github.io/yaruo/gitcore-tutorial/		https://motemen.hatenablog.com/entry/2013/11/22/Attended_%23GITHUBJP_/_Moved_%E3%80%8C%E3%82%84%E3%82%8B%E5%A4%AB%E3%81%A7%E5%AD%A6%E3%81%B6_gitcore-tutorial%E3%80%8D_to_GitHub_Pages		FALSE	FALSE
-2008/07	Arrow.js	JavaScript		https://github.com/motemen/arrow-js		https://github.com/motemen/arrow-js/wiki/Shibuya.js-in-Kyoto	FALSE	FALSE
-2008/07	hatena.vim	Vim		https://github.com/motemen/hatena-vim			FALSE	FALSE
-2008/04	git.vim	Vim,Git		https://github.com/motemen/git-vim			FALSE	TRUE
-2007/10	jusk	Haskell		https://github.com/motemen/jusk			FALSE	FALSE
+Date	Name	Tags	URL	Repository URL	Article URL	Article URL (en)	Presentation URL	Select	Deprecated
+2023/11	gotmplcheck	Go		https://github.com/motemen/go-template-statictools	https://motemen.hatenablog.com/entry/2023/11/30/202713			FALSE	FALSE
+2023/10	go-testutil/dataloc	Go		https://github.com/motemen/go-testutil/tree/main/dataloc	https://motemen.hatenablog.com/entry/2023/10/go-testutil-dataloc	https://dev.to/motemen/locating-failing-test-cases-in-table-driven-tests-in-go-77m		TRUE	FALSE
+2023/07	clang-tidy-check-extra-i18n-string	C++,Clang		https://github.com/motemen/clang-tidy-check-extra-i18n-string	https://motemen.hatenablog.com/entry/2023/07/20/110000			FALSE	FALSE
+2023/05	ラストN画クイズ	Web,React,KanjiVG	https://kanji-strokes-puzzle.vercel.app/	https://github.com/motemen/kanji-strokes-puzzle	https://motemen.hatenablog.com/entry/2023/05/kanji-strokes-puzzle			FALSE	FALSE
+2022/07	Obfuscate texts	Chrome Extension	https://chrome.google.com/webstore/detail/obfuscate-texts/iappfbaenmkmgdiodpemhhndfjbigago	https://github.com/motemen/webextension-obfuscate-texts	https://motemen.hatenablog.com/entry/2022/07/extension-obfuscate-texts			TRUE	FALSE
+2022/07	gcal-tui	Go,Google Calendar,TUI		https://github.com/motemen/gcal-tui	https://motemen.hatenablog.com/entry/2022/07/gcal-tui			FALSE	FALSE
+2022/06	vnodroid	VRM,Web	https://motemen.github.io/vnodroid/	https://github.com/motemen/vnodroid	https://motemen.hatenablog.com/entry/2022/06/vnodroid			FALSE	FALSE
+2022/05	letterknife	Go,CLI,MIME		https://github.com/motemen/letterknife	https://motemen.hatenablog.com/entry/2022/05/letterknife			TRUE	FALSE
+2022/04	sbx	Go,CLI,Scrapbox		https://github.com/motemen/sbx	https://motemen.hatenablog.com/entry/2022/04/sbx			FALSE	FALSE
+2022/03	chrome-extension-esbuild	Chrome Extension,DevTools		https://github.com/motemen/chrome-extension-esbuild	https://motemen.hatenablog.com/entry/2022/03/chrome-extension-esbuild			FALSE	FALSE
+2022/02	ウェブ薄氷	Web,React,Cloudflare Workers	https://usurai.motemen.workers.dev/		https://motemen.hatenablog.com/entry/2022/02/webusurai			TRUE	FALSE
+2022/02	漢字ル	Web,React,KanjiVG	https://motemen.github.io/kanjile/		https://motemen.hatenablog.com/entry/2022/02/kanjile			FALSE	FALSE
+2021/04	go-switchgen	Go,CLI		https://github.com/motemen/go-switchgen	https://motemen.hatenablog.com/entry/2021/04/go-switchgen			FALSE	FALSE
+2020/12	macos-BluetoothAudioDistancer	macOS		https://github.com/motemen/macos-BluetoothAudioDistancer	https://motemen.hatenablog.com/entry/2020/12/macos-bluetoothaudioidistancer			FALSE	FALSE
+2020/11	Google Meet Mute Toggler	Chrome Extension	https://chrome.google.com/webstore/detail/google-meet-mute-toggler/ojdhpiapiiphnknbbgddcfnlagfgpjnp		https://motemen.hatenablog.com/entry/2020/11/google-meet-mute-toggler			FALSE	FALSE
+2020/05	docker-datastore-emulator	Docker		https://github.com/motemen/docker-datastore-emulator				FALSE	FALSE
+2019/12	TextCast	Electron		https://github.com/motemen/TextCast	https://motemen.hatenablog.com/entry/2019/12/textcast			FALSE	FALSE
+2019/12	漢字スライダー	Web,Vue	https://motemen.github.io/kanji-slider/		https://motemen.hatenablog.com/entry/2019/12/kanji-slider			TRUE	FALSE
+2019/11	slack-stream-json	Rust,CLI,Slack		https://github.com/motemen/slack-stream-json	https://motemen.hatenablog.com/entry/2019/11/slack-stream-json			FALSE	FALSE
+2019/03	go-cxtize	Go,CLI		https://github.com/motemen/go-ctxize	https://motemen.hatenablog.com/entry/2019/03/go-ctxize			FALSE	FALSE
+2019/02	めかぬか	Web,KanjiVG	https://motemen.github.io/mekanuka/		https://motemen.hatenablog.com/entry/2019/02/mekanuka			FALSE	FALSE
+2019/01	git-shared-submodule-update	Git		https://github.com/motemen/git-shared-submodule-update	https://motemen.hatenablog.com/entry/2019/01/git-shared-submodule-update			FALSE	FALSE
+2018/08	fuTimer	Speedcubing,Web,React	https://motemen.github.io/futimer/		https://motemen.hatenablog.com/entry/2018/08/speedcubing-timer			FALSE	FALSE
+2018/03	sketch-eth-pay-for-content	Ethereum	https://motemen.hatenablog.com/entry/2018/03/ethereum-dapp-protect-content		https://motemen.hatenablog.com/entry/2018/03/ethereum-dapp-protect-content			FALSE	FALSE
+2017/12	furoshiki2	Python,CLI		https://github.com/motemen/furoshiki2	https://motemen.hatenablog.com/entry/2017/12/furoshiki			FALSE	FALSE
+2017/09	prchecklist	Go,Web		https://github.com/motemen/prchecklist	https://motemen.hatenablog.com/entry/2017/09/prchecklist			FALSE	FALSE
+2017/06	go-graphql-query	Go,GraphQL		https://github.com/motemen/go-graphql-query	https://motemen.hatenablog.com/entry/2017/06/go-graphql-query			FALSE	FALSE
+2017/05	gas-google-calendar-to-slack-status-farm	Google Apps Script		https://github.com/motemen/gas-google-calendar-to-slack-status-farm	https://motemen.hatenablog.com/entry/2017/05/gas-google-calendar-slack-status-farm			FALSE	FALSE
+2016/12	The Beautiful Graph Maker	Web	https://motemen.github.io/beautiful-graph-maker/		https://motemen.hatenablog.com/entry/2016/12/beautiful-graph-maker			FALSE	FALSE
+2016/10	gofind	Go,CLI		https://github.com/motemen/gofind	https://motemen.hatenablog.com/entry/2016/10/gofind			FALSE	FALSE
+2016/09	Router::Simple::Reversible	Perl	https://metacpan.org/pod/Router::Simple::Reversible		https://motemen.hatenablog.com/entry/2016/09/router-simple-reversible			FALSE	FALSE
+2016/07	kt-alloy-cli	Kotlin,Alloy		https://github.com/motemen/kt-alloy-cli	https://motemen.hatenablog.com/entry/2016/07/alloy-run-cli			FALSE	FALSE
+2015/12	humr	Node,CLI	https://www.npmjs.com/package/humr		https://motemen.hatenablog.com/entry/2015/12/humr			FALSE	FALSE
+2015/12	go-iferr	Go,CLI		https://github.com/motemen/go-iferr	https://motemen.hatenablog.com/entry/2015/12/go-iferr			FALSE	FALSE
+2015/11	gas-slack-log-spreadsheet	Google Apps Script,Slack		https://github.com/motemen/gas-slack-log-spreadsheet	https://motemen.hatenablog.com/entry/2015/11/gas-slack-log-spreadsheet			FALSE	FALSE
+2015/10	adsense-report-menubar	Electron		https://github.com/motemen/adsense-report-menubar	https://motemen.hatenablog.com/entry/2015/10/adsense-report-menubar			FALSE	FALSE
+2015/09	go-sqlf	Go		https://github.com/motemen/go-sqlf	https://motemen.hatenablog.com/entry/2015/09/go-sqlf			FALSE	FALSE
+2015/08	go-gitconfig	Go,Git		https://github.com/motemen/go-gitconfig	https://motemen.hatenablog.com/entry/2015/08/go-gitconfig			FALSE	FALSE
+2015/07	gobump	Go,CLI		https://github.com/x-motemen/gobump	https://motemen.hatenablog.com/entry/2015/07/go-gobump-versioning			FALSE	FALSE
+2015/06	Google Apps Script の Type Definition	TypeScript,Google Apps Script		https://github.com/DefinitelyTyped/DefinitelyTyped/pull/6723	https://motemen.hatenablog.com/entry/2015/06/google-apps-script-typescript-dts			FALSE	FALSE
+2015/06	dropbox-file-chooser-dialog	Polymer	https://motemen.hatenablog.com/entry/2015/06/polymer-dropbox-file-chooser-dialog		https://motemen.hatenablog.com/entry/2015/06/polymer-dropbox-file-chooser-dialog			FALSE	FALSE
+2015/04	go-cli	Go,CLI		https://github.com/motemen/go-cli	https://motemen.hatenablog.com/entry/2015/04/go-cli			FALSE	FALSE
+2015/03	hub-pr	Go,CLI,Git		https://github.com/motemen/hub-pr	https://motemen.hatenablog.com/entry/2015/03/hub-pr			FALSE	FALSE
+2015/03	lgtm.sh	Bash,CLI		https://github.com/motemen/lgtm.sh	https://motemen.hatenablog.com/entry/2015/03/15/lgtm-sh			FALSE	FALSE
+2015/03	go-quickfix	Go,CLI		https://github.com/motemen/go-quickfix	https://motemen.hatenablog.com/entry/2015/03/introducing-goquickfix			FALSE	FALSE
+2015/02	gore	Go,CLI		https://github.com/x-motemen/gore	https://motemen.hatenablog.com/entry/2015/02/go-repl-gore			TRUE	FALSE
+2015/02	Pocket Expose	Web	https://expocket.herokuapp.com/		https://motemen.hatenablog.com/entry/2015/02/pocket-expose-web			FALSE	FALSE
+2015/01	go-typeswitch-gen	Go,CLI		https://github.com/motemen/go-typeswitch-gen	https://motemen.hatenablog.com/entry/2015/01/go-generic-func-with-tsgen			FALSE	FALSE
+2014/12	blogsync	Go,CLI		https://github.com/x-motemen/blogsync	https://motemen.hatenablog.com/entry/2014/12/22/blogsync			TRUE	FALSE
+2014/12	go-loghttp	Go		https://github.com/motemen/go-loghttp	https://motemen.hatenablog.com/entry/2014/12/02/go-loghttp			FALSE	FALSE
+2014/07	Lambda Calculator	Scala,Web	http://motemen.github.io/lambda-calculator/untyped.html		https://motemen.hatenablog.com/entry/2014/07/31/lambda-calculator			FALSE	FALSE
+2014/07	minimatch cheatsheet	Node,Web		https://github.com/motemen/minimatch-cheat-sheet	https://github.com/motemen/minimatch-cheat-sheet			FALSE	FALSE
+2014/07	adsense-report-cli	Go,CLI		https://github.com/motemen/adsense-report-cli	https://motemen.hatenablog.com/entry/2014/07/07/adsense-report-cli			FALSE	FALSE
+2014/06	ghq	Go,CLI,Git		https://github.com/x-motemen/ghq	https://motemen.hatenablog.com/entry/2014/06/01/introducing-ghq			TRUE	FALSE
+2014/05	Flavoured Favicon	Chrome Extension	https://chrome.google.com/webstore/detail/flavoured-favicon/dlegfippiljfbacmikdigaimfngdibgh		https://motemen.hatenablog.com/entry/2014/05/09/%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6_Favicon_%E3%81%AE%E8%89%B2%E3%82%92%E5%A4%89%E3%81%88%E3%82%89%E3%82%8C%E3%82%8B_Chrome_			FALSE	FALSE
+2014/04	Quote Image As Text	Chrome Extension	https://chrome.google.com/webstore/detail/quote-image-as-text/fjjehanehnaejfgnmkgebkefbdnebbkc		https://motemen.hatenablog.com/entry/2014/04/07/%E3%82%A6%E3%82%A7%E3%83%96%E4%B8%8A%E3%81%AE%E4%BB%BB%E6%84%8F%E3%81%AE%E7%94%BB%E5%83%8F%E3%81%AE%E8%B2%BC%E3%82%8A%E4%BB%98%E3%81%91%E3%82%BF%E3%82%B0%E3%82%92_Markdown_%E3%81%A8%E3%81%97%E3%81%A6			FALSE	FALSE
+2014/03	JavaScript Libraries Playground	JavaScript	http://motemen.github.io/javascript-libraries-playground/		https://motemen.hatenablog.com/entry/2014/03/25/700%E3%82%92%E8%B6%8A%E3%81%88%E3%82%8BJavaScript%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%82%92%E8%87%AA%E7%94%B1%E3%81%AB%E8%A9%A6%E3%81%9B%E3%82%8B%E3%83%9A%E3%83%BC%E3%82%B8%E3%82%92%E4%BD%9C			FALSE	FALSE
+2014/03	Pusheen Explorer	Web	http://motemen.github.io/pusheen-explorer/		https://motemen.hatenablog.com/entry/2014/03/19/Introducing_Pusheen_Explorer			FALSE	FALSE
+2014/02	ポケモンタイプ相性チェッカ	Web,Angular	http://motemen.github.io/pokemon-type-effects/		https://motemen.hatenablog.com/entry/2014/02/17/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%97%E7%9B%B8%E6%80%A7%E3%82%92%E7%A2%BA%E8%AA%8D%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%A6%E3%82%A7%E3%83%96%E3%82%A2%E3%83%97%E3%83%AA			FALSE	FALSE
+2014/01	vim-help-random	Vim		https://github.com/motemen/vim-help-random	https://motemen.hatenablog.com/entry/wrote-plugin-vim-help-random			FALSE	FALSE
+2013/12	ARGV::JSON	Perl	https://metacpan.org/release/ARGV-JSON		https://motemen.hatenablog.com/entry/2013/12/18/Shipped_ARGV%3A%3AJSON_0_01			FALSE	FALSE
+2013/11	Print::Indented	Perl	https://metacpan.org/release/Print-Indented		https://motemen.hatenablog.com/entry/2013/11/19/%E3%81%84%E3%81%84%E6%84%9F%E3%81%98%E3%81%AB%E5%87%BA%E5%8A%9B%E3%82%92%E3%82%A4%E3%83%B3%E3%83%87%E3%83%B3%E3%83%88%E3%81%97%E3%81%A6%E3%81%8F%E3%82%8C%E3%82%8B%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC			FALSE	FALSE
+2013/08	まかないメーカー	Web	http://macanai-maker.herokuapp.com/		https://motemen.hatenablog.com/entry/2013/08/28/%E4%BB%8A%E6%97%A5%E3%81%AE%E7%8C%AE%E7%AB%8B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E7%A4%BA%E5%94%86%E3%82%92%E4%B8%8E%E3%81%88%E3%81%A6%E3%81%8F%E3%82%8C%E3%82%8B%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5			FALSE	FALSE
+2013/02	次の連休	Web	https://misc.tokyoenvious.net/holidays/holidays.html				https://www.slideshare.net/motemen/ss-16398860	FALSE	FALSE
+2012/10	polka	Node		https://github.com/motemen/polka	http://subtech.g.hatena.ne.jp/motemen/20121016/1350362999			FALSE	FALSE
+2012/10	Test::Deep::JSON	Perl	https://metacpan.org/release/MOTEMEN/Test-Deep-JSON-0.01/		http://subtech.g.hatena.ne.jp/motemen/20121003/1349240202			FALSE	FALSE
+2012/09	git-browse-remote	Ruby,CLI	http://motemen.github.io/git-browse-remote/		https://motemen.hatenablog.com/entry/2014/06/05/released-git-browse-remote-0-1-0			FALSE	FALSE
+2012/09	AnyEvent::Plackup	Perl	https://metacpan.org/release/MOTEMEN/AnyEvent-Plackup-0.01		https://motemen.hatenablog.com/entry/2013/10/15/Shipped_AnyEvent%3A%3APlackup			FALSE	FALSE
+2012/07	Wight	Perl		https://github.com/motemen/Wight	http://subtech.g.hatena.ne.jp/motemen/20120703/1341291524		http://www.slideshare.net/motemen/wight-phantoms-perl-friend-yapcasia-2012	FALSE	FALSE
+2012/04	Class::Accessor::Lite::Lazy	Perl	https://metacpan.org/dist/Class-Accessor-Lite-Lazy					FALSE	FALSE
+2012/04	HTTP::Response::Maker	Perl	https://metacpan.org/module/HTTP::Response::Maker		http://subtech.g.hatena.ne.jp/motemen/20120410/1334062368			FALSE	FALSE
+2012/02	Acme::Annotate::WithOutput	Perl		https://github.com/motemen/Acme-Annotate-WithOutput	http://subtech.g.hatena.ne.jp/motemen/20120208/1328702891			FALSE	FALSE
+2012/01	App::htmlcat	Perl,CLI		https://github.com/motemen/App-htmlcat	http://subtech.g.hatena.ne.jp/motemen/20120120/1326987165			FALSE	FALSE
+2011/12	chrome-scala-api-search	Chrome Extension		https://github.com/motemen/chrome-scala-api-search	https://motemen.hatenablog.com/entry/2011/12/03/015830			FALSE	TRUE
+2011/08	ゆりゆららららゆるゆり大事件メーカー	Web	http://yurarara.tokyoenvious.net/		http://subtech.g.hatena.ne.jp/motemen/20110823/1314100241			FALSE	TRUE
+2011/07	UNIVERSAL::perldoc	Perl		https://github.com/motemen/UNIVERSAL-perldoc	http://subtech.g.hatena.ne.jp/motemen/20110714/1310641020			FALSE	FALSE
+2011/06	Kindlenap	Perl		https://github.com/motemen/Kindlenap	http://subtech.g.hatena.ne.jp/motemen/20110617/13082720066			FALSE	FALSE
+2011/06	git-log-relay-chat	Git		https://github.com/motemen/git-log-relay-chat	http://subtech.g.hatena.ne.jp/motemen/20110628/1309262975			FALSE	FALSE
+2011/04	App::sn	Perl,CLI		https://github.com/motemen/App-sn	http://subtech.g.hatena.ne.jp/motemen/20110418/13031318944			FALSE	FALSE
+2011/03	AnyEvent::DAAP::Server	Perl		https://github.com/motemen/AnyEvent-DAAP-Server	http://subtech.g.hatena.ne.jp/motemen/20110328/1301314126			FALSE	FALSE
+2011/02	LWPx::Record::DataSection	Perl		https://github.com/motemen/LWPx-Record-DataSection	http://subtech.g.hatena.ne.jp/motemen/20110221/1298289517			FALSE	FALSE
+2011/02	PicTumblr	Android	https://market.android.com/details?id=net.tokyoenvious.droid.pictumblr					FALSE	TRUE
+2011/01	modoi	Perl		https://github.com/motemen/modoi	http://subtech.g.hatena.ne.jp/motemen/20110127/1296056112			FALSE	FALSE
+2010/12	vim-guess-abbrev	Vim		https://github.com/motemen/vim-guess-abbrev	http://subtech.g.hatena.ne.jp/motemen/20101215/1292414533			FALSE	FALSE
+2010/11	Teto	Perl	http://github.com/motemen/Teto		http://subtech.g.hatena.ne.jp/motemen/20101102/1288706549			FALSE	FALSE
+2010/11	Script::State	Perl		https://github.com/motemen/Script-State	http://subtech.g.hatena.ne.jp/motemen/20101116/1289910367			FALSE	FALSE
+2010/10	Plack::Middleware::WebSocket	Perl	http://github.com/motemen/Plack-Middleware-WebSocket		http://subtech.g.hatena.ne.jp/motemen/20101021/1287665213			FALSE	FALSE
+2010/05	Plack::Middleware::Icecast::StatusUpdate	Perl	http://github.com/motemen/Plack-Middleware-Icecast-StatusUpdate		http://subtech.g.hatena.ne.jp/motemen/20100523/1274549126			FALSE	FALSE
+2008/09	as3-klt	ActionScript		https://github.com/motemen/as3-klt	http://subtech.g.hatena.ne.jp/motemen/20080925/1222325279			FALSE	FALSE
+2008/08	やる夫で学ぶgitcore-tutorial	Git	http://motemen.github.io/yaruo/gitcore-tutorial/		https://motemen.hatenablog.com/entry/2013/11/22/Attended_%23GITHUBJP_/_Moved_%E3%80%8C%E3%82%84%E3%82%8B%E5%A4%AB%E3%81%A7%E5%AD%A6%E3%81%B6_gitcore-tutorial%E3%80%8D_to_GitHub_Pages			FALSE	FALSE
+2008/07	Arrow.js	JavaScript		https://github.com/motemen/arrow-js			https://github.com/motemen/arrow-js/wiki/Shibuya.js-in-Kyoto	FALSE	FALSE
+2008/07	hatena.vim	Vim		https://github.com/motemen/hatena-vim				FALSE	FALSE
+2008/04	git.vim	Vim,Git		https://github.com/motemen/git-vim				FALSE	TRUE
+2007/10	jusk	Haskell		https://github.com/motemen/jusk				FALSE	FALSE
