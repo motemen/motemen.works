@@ -1,4 +1,6 @@
 Date	Name	Tags	URL	Repository URL	Article URL	Article URL (en)	Presentation URL	Select	Deprecated
+2024/06	macos-obs-websocket-ocr	Swift,OBS,macOS		https://github.com/motemen/macos-obs-websocket-ocr	https://motemen.hatenablog.com/entry/2024/06/macos-obs-websocket-ocr			FALSE	FALSE
+2024/06	gonoouterval	Go		https://github.com/motemen/go-statictools/tree/noouterval/noouterval	https://motemen.hatenablog.com/entry/2024/06/go-noouterval			FALSE	FALSE
 2024/05	POKEMON_ALL.json	Python,Pokémon	https://motemen.github.io/pokemon-data/	https://github.com/motemen/pokemon-data	https://motemen.hatenablog.com/entry/2024/05/pokemon-all			FALSE	FALSE
 2024/01	example-apache-beam-slack-export-to-bigquery	Apache Beam,Python		https://github.com/motemen/example-apache-beam-slack-export-to-bigquery	https://motemen.hatenablog.com/entry/2024/01/apache-beam-slack-bigquery			FALSE	FALSE
 2023/11	gotmplcheck	Go		https://github.com/motemen/go-template-statictools	https://motemen.hatenablog.com/entry/2023/11/30/202713			FALSE	FALSE
