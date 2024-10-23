@@ -3984,10 +3984,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.17.9":
-  version: 18.17.9
-  resolution: "@types/node@npm:18.17.9"
-  checksum: 0d5835710e49a654a1ca34167e7cd504cc709c006006ebe9b23c360dac5637c6c4f1b4f3aff33df1b7f9debfb9ad8bd81da2fc4540970d2ad56eb479cda77613
+"@types/node@npm:18.19.59":
+  version: 18.19.59
+  resolution: "@types/node@npm:18.19.59"
+  dependencies:
+    undici-types: ~5.26.4
+  checksum: 8e45a05aa91437d3d11a346775ac16589353070c504f91a62cd91945a384231ccbbe92009a8e1ae653f954f9de5bf8ff106cc8e26721ecab98914dc019217aef
   languageName: node
   linkType: hard
 
@@ -11419,7 +11421,7 @@ __metadata:
     "@emotion/styled": 11.11.0
     "@mui/icons-material": 5.15.0
     "@mui/material": 5.15.0
-    "@types/node": 18.17.9
+    "@types/node": 18.19.59
     "@types/react": 18.2.6
     "@types/react-dom": 18.2.4
     "@types/react-helmet": 6.1.5
@@ -15520,6 +15522,13 @@ __metadata:
   version: 5.25.3
   resolution: "undici-types@npm:5.25.3"
   checksum: ec9d2cc36520cbd9fbe3b3b6c682a87fe5be214699e1f57d1e3d9a2cb5be422e62735f06e0067dc325fd3dd7404c697e4d479f9147dc8a804e049e29f357f2ff
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~5.26.4":
+  version: 5.26.5
+  resolution: "undici-types@npm:5.26.5"
+  checksum: 3192ef6f3fd5df652f2dc1cd782b49d6ff14dc98e5dced492aa8a8c65425227da5da6aafe22523c67f035a272c599bb89cfe803c1db6311e44bed3042fc25487
   languageName: node
   linkType: hard
 
