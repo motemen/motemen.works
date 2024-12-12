@@ -86,6 +86,10 @@ const IndexPage = () => {
             </ul>
           </li>
           <li>
+            Bluesky:{" "}
+            <a href="https://bsky.app/profile/motemen.works">@motemen.works</a>
+          </li>
+          <li>
             𝕏: <a href="https://twitter.com/motemen">@motemen</a>
           </li>
           <li>
