@@ -1,35 +1,38 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import WorksItem from '../components/WorksItem';
-import { loadWorks } from '../utils/loadWorks';
-import { loadMarkdown } from '../utils/loadMarkdown';
+import Layout from "../layouts/Layout.astro";
+import WorksItem from "../components/WorksItem";
+import { loadWorks } from "../utils/loadWorks";
+import { loadMarkdown } from "../utils/loadMarkdown";
 
 const works = await loadWorks();
-const selectedWorks = works.filter(work => work.Select === 'TRUE');
-const profileHTML = await loadMarkdown('profile');
-const experiencesHTML = await loadMarkdown('experiences');
+const selectedWorks = works.filter((work) => work.Select === "TRUE");
+const profileHTML = await loadMarkdown("profile");
+const experiencesHTML = await loadMarkdown("experiences");
 ---
 
 <Layout>
   <section class="profile">
-    <div set:html={profileHTML}></div>
+    <div set:html={profileHTML} />
   </section>
 
   <section class="works">
     <h2>選集</h2>
     <ul>
-      {selectedWorks.map(work => (
-        <WorksItem
-          client:load
-          name={work.Name}
-          url={work.URL}
-          articleURL={work['Article URL']}
-          repositoryURL={work['Repository URL']}
-          tags={work.Tags?.split(',') || []}
-          year={parseInt(work.Date?.substring(0, 4))}
-          deprecated={work.Deprecated === 'TRUE'}
-        />
-      ))}
+      {
+        selectedWorks.map((work) => (
+          <WorksItem
+            client:load
+            name={work.Name}
+            url={work.URL}
+            articleURL={work["Article URL"]}
+            repositoryURL={work["Repository URL"]}
+            presentationURL={work["Presentation URL"]}
+            tags={work.Tags?.split(",") || []}
+            year={parseInt(work.Date?.substring(0, 4))}
+            deprecated={work.Deprecated === "TRUE"}
+          />
+        ))
+      }
     </ul>
     <a href="/works">
       ➔ すべての作品を見る ({works.length})
@@ -38,7 +41,7 @@ const experiencesHTML = await loadMarkdown('experiences');
 
   <section class="experiences">
     <h2>職務経歴</h2>
-    <div set:html={experiencesHTML}></div>
+    <div set:html={experiencesHTML} />
   </section>
 
   <section class="links">
@@ -89,7 +92,7 @@ const experiencesHTML = await loadMarkdown('experiences');
     margin-bottom: 1rem;
     padding-left: 0;
   }
-  
+
   .works li.deprecated {
     opacity: 0.6;
   }

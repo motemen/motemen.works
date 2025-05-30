@@ -1,4 +1,4 @@
-import { Language, Article, GitHub } from "@mui/icons-material";
+import { Language, Article, GitHub, Tv } from "@mui/icons-material";
 
 interface Props {
   name: string;
@@ -7,6 +7,7 @@ interface Props {
   tags: string[];
   articleURL?: string;
   repositoryURL?: string;
+  presentationURL?: string;
   deprecated: boolean;
 }
 
@@ -17,6 +18,7 @@ const WorksItem = ({
   tags,
   articleURL: maybeAbandonedArticleURL,
   repositoryURL,
+  presentationURL,
   deprecated,
 }: Props) => {
   let articleURL = maybeAbandonedArticleURL;
@@ -44,6 +46,13 @@ const WorksItem = ({
             <a href={articleURL} title="記事">
               <span className="icon">
                 <Article fontSize="inherit" />
+              </span>
+            </a>
+          )}
+          {presentationURL && (
+            <a href={presentationURL} title="プレゼンテーション">
+              <span className="icon">
+                <Tv fontSize="inherit" />
               </span>
             </a>
           )}

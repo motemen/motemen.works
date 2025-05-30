@@ -1,7 +1,7 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import WorksItem from '../components/WorksItem';
-import { loadWorks } from '../utils/loadWorks';
+import Layout from "../layouts/Layout.astro";
+import WorksItem from "../components/WorksItem";
+import { loadWorks } from "../utils/loadWorks";
 
 const works = await loadWorks();
 ---
@@ -10,18 +10,21 @@ const works = await loadWorks();
   <section class="works">
     <h2>作品</h2>
     <ul>
-      {works.map(work => (
-        <WorksItem
-          client:load
-          name={work.Name}
-          url={work.URL}
-          articleURL={work['Article URL']}
-          repositoryURL={work['Repository URL']}
-          tags={work.Tags?.split(',') || []}
-          year={parseInt(work.Date?.substring(0, 4))}
-          deprecated={work.Deprecated === 'TRUE'}
-        />
-      ))}
+      {
+        works.map((work) => (
+          <WorksItem
+            client:load
+            name={work.Name}
+            url={work.URL}
+            articleURL={work["Article URL"]}
+            repositoryURL={work["Repository URL"]}
+            presentationURL={work["Presentation URL"]}
+            tags={work.Tags?.split(",") || []}
+            year={parseInt(work.Date?.substring(0, 4))}
+            deprecated={work.Deprecated === "TRUE"}
+          />
+        ))
+      }
     </ul>
   </section>
 </Layout>
@@ -36,7 +39,7 @@ const works = await loadWorks();
     margin-bottom: 1rem;
     padding-left: 0;
   }
-  
+
   .works li.deprecated {
     opacity: 0.6;
   }

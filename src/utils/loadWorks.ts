@@ -5,6 +5,7 @@ export interface Work {
   URL?: string;
   "Repository URL"?: string;
   "Article URL"?: string;
+  "Presentation URL"?: string;
   Select: string;
   Deprecated: string;
   [key: string]: string | undefined; // インデックスシグネチャを追加
@@ -12,7 +13,8 @@ export interface Work {
 
 export async function loadWorks(): Promise<Work[]> {
   // Google Sheetsから直接TSVデータをフェッチする
-  const url = "https://docs.google.com/spreadsheets/d/19jtTn6MWEcCAryBreABNOTyQ8Trd7OzRg7_X0QqZjQU/export?format=tsv&gid=0";
+  const url =
+    "https://docs.google.com/spreadsheets/d/19jtTn6MWEcCAryBreABNOTyQ8Trd7OzRg7_X0QqZjQU/export?format=tsv&gid=0";
   const response = await fetch(url);
   const text = await response.text();
   const lines = text.split("\n");
