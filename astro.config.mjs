@@ -1,6 +1,6 @@
-import { defineConfig } from 'astro/config';
-import react from '@astrojs/react';
-import partytown from '@astrojs/partytown';
+import { defineConfig } from "astro/config";
+import react from "@astrojs/react";
+import partytown from "@astrojs/partytown";
 
 export default defineConfig({
   integrations: [
@@ -11,6 +11,6 @@ export default defineConfig({
       },
     }),
   ],
-  output: 'static',
-  site: 'https://motemen.works',
+  output: "static",
+  site: "https://motemen.works",
 });
