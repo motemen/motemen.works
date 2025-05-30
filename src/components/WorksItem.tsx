@@ -1,4 +1,4 @@
-import { Globe, FileText, FolderGit2 } from "lucide-react";
+import { Language, Article, Folder } from "@mui/icons-material";
 
 interface Props {
   name: string;
@@ -35,17 +35,17 @@ const WorksItem = ({
         <span className="other-links">
           {url && (
             <a href={url} title="URL">
-              <span className="icon"><Globe size={16} /></span>
+              <span className="icon"><Language fontSize="small" /></span>
             </a>
           )}
           {articleURL && (
             <a href={articleURL} title="記事">
-              <span className="icon"><FileText size={16} /></span>
+              <span className="icon"><Article fontSize="small" /></span>
             </a>
           )}
           {repositoryURL && (
             <a href={repositoryURL} title="リポジトリ">
-              <span className="icon"><FolderGit2 size={16} /></span>
+              <span className="icon"><Folder fontSize="small" /></span>
             </a>
           )}
         </span>
