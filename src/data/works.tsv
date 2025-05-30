@@ -1,4 +1,7 @@
 Date	Name	Tags	URL	Repository URL	Article URL	Article URL (en)	Presentation URL	Select	Deprecated
+2025/05	ai-streamer	OBS,LLM		https://github.com/motemen/ai-streamer			https://speakerdeck.com/motemen/ai-streamer	TRUE	FALSE
+2025/02	ai-mail-pal	AWS,LLM		https://github.com/motemen/ai-mail-pal	https://motemen.hatenablog.com/entry/2025/02/ai-mail-pal			FALSE	FALSE
+2024/12	ポケ徹検索くん	Pokémon,LLM	https://yakkunsearch.apps.tokyoenvious.net/					FALSE	FALSE
 2024/06	macos-obs-websocket-ocr	Swift,OBS,macOS		https://github.com/motemen/macos-obs-websocket-ocr	https://motemen.hatenablog.com/entry/2024/06/macos-obs-websocket-ocr			FALSE	FALSE
 2024/06	gonoouterval	Go		https://github.com/motemen/go-statictools/tree/noouterval/noouterval	https://motemen.hatenablog.com/entry/2024/06/go-noouterval			FALSE	FALSE
 2024/05	POKEMON_ALL.json	Python,Pokémon	https://motemen.github.io/pokemon-data/	https://github.com/motemen/pokemon-data	https://motemen.hatenablog.com/entry/2024/05/pokemon-all			FALSE	FALSE
