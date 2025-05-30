@@ -1,4 +1,4 @@
-import { Language, Article, Folder, Web, GitHub } from "@mui/icons-material";
+import { Language, Article, GitHub } from "@mui/icons-material";
 
 interface Props {
   name: string;

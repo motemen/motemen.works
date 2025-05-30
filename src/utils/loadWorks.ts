@@ -11,12 +11,10 @@ export interface Work {
 }
 
 export async function loadWorks(): Promise<Work[]> {
-  // Astroでは、import.meta.glob を使って直接ファイルを読み込む
-  const fs = await import("fs/promises");
-  const path = await import("path");
-
-  const filePath = path.join(process.cwd(), "src/data/works.tsv");
-  const text = await fs.readFile(filePath, "utf-8");
+  // Google Sheetsから直接TSVデータをフェッチする
+  const url = "https://docs.google.com/spreadsheets/d/19jtTn6MWEcCAryBreABNOTyQ8Trd7OzRg7_X0QqZjQU/export?format=tsv&gid=0";
+  const response = await fetch(url);
+  const text = await response.text();
   const lines = text.split("\n");
   const headers = lines[0].split("\t");
 
