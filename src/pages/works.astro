@@ -1,0 +1,67 @@
+---
+import Layout from '../layouts/Layout.astro';
+import WorksItem from '../components/WorksItem';
+import { loadWorks } from '../utils/loadWorks';
+
+const works = await loadWorks();
+---
+
+<Layout title="作品">
+  <section class="works">
+    <h2>作品</h2>
+    <ul>
+      {works.map(work => (
+        <WorksItem
+          client:load
+          name={work.Name}
+          url={work.URL}
+          articleURL={work['Article URL']}
+          repositoryURL={work['Repository URL']}
+          tags={work.Tags?.split(',') || []}
+          year={parseInt(work.Date?.substring(0, 4))}
+          deprecated={work.Deprecated === 'TRUE'}
+        />
+      ))}
+    </ul>
+  </section>
+</Layout>
+
+<style>
+  .works ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .works li {
+    margin-bottom: 1rem;
+    padding-left: 0;
+  }
+  
+  .works li.deprecated {
+    opacity: 0.6;
+  }
+
+  .other-links {
+    margin-left: 0.5rem;
+    font-size: 0.8em;
+  }
+
+  .meta {
+    font-size: 0.8rem;
+    color: #666;
+  }
+
+  .year {
+    display: inline-block;
+    width: 3em;
+  }
+
+  .tag {
+    display: inline-block;
+    margin-right: 0.5em;
+    padding: 0.1em 0.3em;
+    background: #f0f0f0;
+    border-radius: 3px;
+    font-size: 0.9em;
+  }
+</style>

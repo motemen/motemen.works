@@ -1,0 +1,115 @@
+/* グローバルスタイル */
+body {
+  background-color: #f3f3f3;
+  color: #000000;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #e0e0e0;
+    background-color: #292a2e;
+  }
+
+  a {
+    color: #80b7fe;
+  }
+}
+
+main {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 300;
+  line-height: 2;
+  font-size: 125%;
+  margin: 5em 10em;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 0.5px solid;
+}
+
+h1,
+h2 {
+  font-weight: 400;
+}
+
+h1 {
+  background-image: url(/images/motemen.svg);
+  background-repeat: no-repeat;
+  background-size: 80px;
+  background-position-x: right;
+  height: 100px;
+}
+
+h1 a {
+  text-decoration: inherit;
+  border: none;
+  color: inherit;
+}
+
+.works .tag {
+  font-size: 70%;
+  margin: 0 0.2rem;
+}
+
+.works .meta {
+  font-size: smaller;
+}
+
+.works .other-links {
+  vertical-align: bottom;
+  font-size: 80%;
+  margin-left: 0.5em;
+}
+
+.works .other-links a {
+  margin-right: 0.15em;
+  color: #aaa;
+  border: none;
+}
+
+.works .other-links a:focus {
+  color: #555;
+}
+
+.experiences ul,
+.links ul {
+  font-size: 90%;
+}
+
+@media (max-width: 767px) {
+  main {
+    font-size: 105%;
+    margin: 0.5em 1em;
+    margin-bottom: 1em;
+  }
+}
+
+@media print {
+  a[href^="https:"]::after {
+    content: "<" attr(href) ">";
+    font-size: 90%;
+    margin-left: 0.5em;
+    font-family: monospace;
+  }
+
+  @page {
+    size: A4;
+  }
+
+  .other-links {
+    display: none;
+  }
+
+  .experiences {
+    page-break-before: always;
+  }
+}
