@@ -1,4 +1,4 @@
-import { Language, Article, Folder } from "@mui/icons-material";
+import { Language, Article, Folder, Web, GitHub } from "@mui/icons-material";
 
 interface Props {
   name: string;
@@ -35,17 +35,23 @@ const WorksItem = ({
         <span className="other-links">
           {url && (
             <a href={url} title="URL">
-              <span className="icon"><Language fontSize="small" /></span>
+              <span className="icon">
+                <Language fontSize="inherit" />
+              </span>
             </a>
           )}
           {articleURL && (
             <a href={articleURL} title="記事">
-              <span className="icon"><Article fontSize="small" /></span>
+              <span className="icon">
+                <Article fontSize="inherit" />
+              </span>
             </a>
           )}
           {repositoryURL && (
             <a href={repositoryURL} title="リポジトリ">
-              <span className="icon"><Folder fontSize="small" /></span>
+              <span className="icon">
+                <GitHub fontSize="inherit" />
+              </span>
             </a>
           )}
         </span>
