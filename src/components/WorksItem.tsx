@@ -1,3 +1,5 @@
+import { Globe, FileText, FolderGit2 } from "lucide-react";
+
 interface Props {
   name: string;
   url?: string;
@@ -33,17 +35,17 @@ const WorksItem = ({
         <span className="other-links">
           {url && (
             <a href={url} title="URL">
-              <span className="icon">🌐</span>
+              <span className="icon"><Globe size={16} /></span>
             </a>
           )}
           {articleURL && (
             <a href={articleURL} title="記事">
-              <span className="icon">📝</span>
+              <span className="icon"><FileText size={16} /></span>
             </a>
           )}
           {repositoryURL && (
             <a href={repositoryURL} title="リポジトリ">
-              <span className="icon">🗂️</span>
+              <span className="icon"><FolderGit2 size={16} /></span>
             </a>
           )}
         </span>
