@@ -2,5 +2,4 @@
 /.astro
 node_modules/
 .cache/
-public
 src/__generated__/
