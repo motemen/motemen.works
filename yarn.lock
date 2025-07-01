@@ -3882,10 +3882,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.17.9":
-  version: 18.17.9
-  resolution: "@types/node@npm:18.17.9"
-  checksum: 0d5835710e49a654a1ca34167e7cd504cc709c006006ebe9b23c360dac5637c6c4f1b4f3aff33df1b7f9debfb9ad8bd81da2fc4540970d2ad56eb479cda77613
+"@types/node@npm:18.19.115":
+  version: 18.19.115
+  resolution: "@types/node@npm:18.19.115"
+  dependencies:
+    undici-types: ~5.26.4
+  checksum: fc39f51a17364c00fdfda35494dc71b84d3eef2d5f8ee97103a9af55492784c20963bbc21b5b7f419b29fe97eecf9276cdf766673036efa3660b241396189a1b
   languageName: node
   linkType: hard
 
@@ -11404,7 +11406,7 @@ __metadata:
     "@emotion/styled": 11.13.5
     "@mui/icons-material": 5.15.0
     "@mui/material": 5.15.0
-    "@types/node": 18.17.9
+    "@types/node": 18.19.115
     "@types/react": 18.2.6
     "@types/react-dom": 18.2.4
     "@types/react-helmet": 6.1.5
@@ -15603,6 +15605,13 @@ __metadata:
     sprintf-js: ^1.1.1
     util-deprecate: ^1.0.2
   checksum: b7719c30e5d1fdda4ee9379e8d80dca2b0668942420ba365ae3410120e08225fe36707a7981ce0f921812dee6a2290b713cdce1e75e770b98e67a45d8a378d35
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~5.26.4":
+  version: 5.26.5
+  resolution: "undici-types@npm:5.26.5"
+  checksum: 3192ef6f3fd5df652f2dc1cd782b49d6ff14dc98e5dced492aa8a8c65425227da5da6aafe22523c67f035a272c599bb89cfe803c1db6311e44bed3042fc25487
   languageName: node
   linkType: hard
 
