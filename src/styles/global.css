@@ -1,3 +1,4 @@
+/* グローバルスタイル */
 body {
   background-color: #f3f3f3;
   color: #000000;
@@ -5,10 +6,10 @@ body {
 
 a {
   color: blue;
+}
 
-  &:hover {
-    color: red;
-  }
+a:hover {
+  color: red;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -41,44 +42,42 @@ h2 {
 }
 
 h1 {
-  background-image: url(/images/1920.png);
+  background-image: url(/images/motemen.svg);
   background-repeat: no-repeat;
   background-size: 80px;
   background-position-x: right;
   height: 100px;
-
-  & a {
-    text-decoration: inherit;
-    border: none;
-    color: inherit;
-  }
 }
 
-.works {
-  & .tag {
-    font-size: 70%;
-    margin: 0 0.2rem;
-  }
+h1 a {
+  text-decoration: inherit;
+  border: none;
+  color: inherit;
+}
 
-  & .meta {
-    font-size: smaller;
-  }
+.works .tag {
+  font-size: 70%;
+  margin: 0 0.2rem;
+}
 
-  & .other-links {
-    vertical-align: bottom;
-    font-size: 80%;
-    margin-left: 0.5em;
-  }
+.works .meta {
+  font-size: smaller;
+}
 
-  & .other-links a {
-    margin-right: 0.15em;
-    color: #aaa;
-    border: none;
-  }
+.works .other-links {
+  vertical-align: bottom;
+  font-size: 80%;
+  margin-left: 0.5em;
+}
 
-  & .other-links a:focus {
-    color: #555;
-  }
+.works .other-links a {
+  margin-right: 0.15em;
+  color: #aaa;
+  border: none;
+}
+
+.works .other-links a:focus {
+  color: #555;
 }
 
 .experiences ul,

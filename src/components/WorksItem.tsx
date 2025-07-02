@@ -1,15 +1,13 @@
-import * as React from "react";
-import ArticleIcon from "@mui/icons-material/Article";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import WebIcon from "@mui/icons-material/Language";
+import { Language, Article, GitHub, Tv } from "@mui/icons-material";
 
 interface Props {
   name: string;
-  url: string;
+  url?: string;
   year: number;
   tags: string[];
-  articleURL: string;
-  repositoryURL: string;
+  articleURL?: string;
+  repositoryURL?: string;
+  presentationURL?: string;
   deprecated: boolean;
 }
 
@@ -20,15 +18,16 @@ const WorksItem = ({
   tags,
   articleURL: maybeAbandonedArticleURL,
   repositoryURL,
+  presentationURL,
   deprecated,
 }: Props) => {
   let articleURL = maybeAbandonedArticleURL;
-  if (articleURL.indexOf("subtech.g.hatena.ne.jp") !== -1) {
+  if (articleURL && articleURL.indexOf("subtech.g.hatena.ne.jp") !== -1) {
     articleURL = "https://web.archive.org/web/2020/" + articleURL;
   }
 
   return (
-    <li key={url}>
+    <li className={deprecated ? "deprecated" : ""}>
       <div>
         {deprecated ? (
           <del>{name}</del>
@@ -38,17 +37,30 @@ const WorksItem = ({
         <span className="other-links">
           {url && (
             <a href={url} title="URL">
-              <WebIcon fontSize="inherit" />
+              <span className="icon">
+                <Language fontSize="inherit" />
+              </span>
             </a>
           )}
           {articleURL && (
             <a href={articleURL} title="記事">
-              <ArticleIcon fontSize="inherit" />
+              <span className="icon">
+                <Article fontSize="inherit" />
+              </span>
+            </a>
+          )}
+          {presentationURL && (
+            <a href={presentationURL} title="プレゼンテーション">
+              <span className="icon">
+                <Tv fontSize="inherit" />
+              </span>
             </a>
           )}
           {repositoryURL && (
             <a href={repositoryURL} title="リポジトリ">
-              <GitHubIcon fontSize="inherit" />
+              <span className="icon">
+                <GitHub fontSize="inherit" />
+              </span>
             </a>
           )}
         </span>
