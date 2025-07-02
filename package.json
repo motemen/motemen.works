@@ -14,8 +14,7 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "typecheck": "astro check",
-    "update-works": "curl -L -o ./src/data/works.tsv 'https://docs.google.com/spreadsheets/d/19jtTn6MWEcCAryBreABNOTyQ8Trd7OzRg7_X0QqZjQU/export?format=tsv&gid=0'"
+    "typecheck": "astro check"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.0",
